@@ -14,17 +14,17 @@ To run the project:
 5. Copy files from this repository to your projectFolder. If prompted Replace existing file in projectFolder 
 6. Set database,host,user name and pass in projectFolder/.env file
 7. From a command prompt navigate to your project folder and run the following command
-7a. composer update
-7b. php artisan migrate
-7c  php artisan db:seed --class=UsersTableSeeder
-7d. composer dump-autoload
-8. Make sure your database server is running.
-9. The following command will start a development server 
->php artisan serve
-10. copy the url(something like 127.0.0.1:8000) and paste in broser window to see the project
-11. use the following user to create video
+8. composer update
+9. php artisan migrate
+10  php artisan db:seed --class=UsersTableSeeder
+11. composer dump-autoload
+12. Make sure your database server is running.
+13. The following command will start a development server 
+14. php artisan serve
+15. copy the url(something like 127.0.0.1:8000) and paste in broser window to see the project
+16. use the following user to create video
 user/pass: yt.admin.2018@gmail.com/secret
-12. use the following user to view video
-user/pass yt.viewer.2018@gmail.com/viewer
+17. use the following user to view video
+user/pass: yt.viewer.2018@gmail.com/viewer
 
 
