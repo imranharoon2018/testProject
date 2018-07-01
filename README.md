@@ -10,14 +10,14 @@ To run the project:
 1. Install PHP 7.2.6, Mysql & Composer
 2. Add the path of php and composer bin to the environmental variable
 3. From command prompt create a laravel project using a command like this
- composer create-project laravel/laravel projectFolder
+3a. composer create-project laravel/laravel projectFolder
 5. Copy files from this repository to your projectFolder. If prompted Replace existing file in projectFolder 
 6. Set database,host,user name and pass in projectFolder/.env file
 7. From a command prompt navigate to your project folder and run the following command
- composer update
- php artisan migrate
- php artisan db:seed --class=UsersTableSeeder
- composer dump-autoload
+7a. composer update
+7b. php artisan migrate
+7c  php artisan db:seed --class=UsersTableSeeder
+7d. composer dump-autoload
 8. Make sure your database server is running.
 9. The following command will start a development server 
 >php artisan serve
